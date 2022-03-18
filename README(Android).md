@@ -3,8 +3,6 @@
 
 ```
 语言:                  C#、C++
-类型:                  集成
-贡献者:                UdSDK开发组<support@euclideon.com>
 机构:                  优立, https://www.euclideon.com/
 日期:                  2022-03-15
 Android Studio版本:    2021.1.1.22
