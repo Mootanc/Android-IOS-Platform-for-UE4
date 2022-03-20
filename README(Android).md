@@ -56,3 +56,8 @@ Android Studio安装的前提必须保证安装了jdk1.8版本以上。
 13. 在 Android SDK 系统设置中，单击 SDK 工具选项卡，选中"Android SDK Command-Line Tools(latest)"复选框。单击Apply以下载并安装此组件。
 
 14. 安装完成后，请务必重新启动您的计算机。
+
+## 设置安卓NDK
+1. 打开虚幻引擎4根目录下的Engine/Extras/Android，运行SetupAndroid.bat
+
+2. 系统提示设置成功后按任意键关闭命令提示符，再重启您的计算机以使更改生效。
