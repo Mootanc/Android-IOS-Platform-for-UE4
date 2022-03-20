@@ -57,7 +57,7 @@ Android Studio安装的前提必须保证安装了jdk1.8版本以上。
 
 14. 安装完成后，请务必重新启动您的计算机。
 
-### 设置安卓NDK
+### 安装安卓NDK
 1. 打开虚幻引擎4根目录下的Engine/Extras/Android，运行SetupAndroid.bat。
 
 2. 命令提示符安装成功后按任意键关闭，再重启您的计算机以使更改生效。
