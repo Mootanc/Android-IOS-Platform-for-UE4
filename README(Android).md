@@ -50,3 +50,9 @@ Android Studio安装的前提必须保证安装了jdk1.8版本以上。
 10. 确认无误后，点击Next，跳转到许可协议界面，对每一项许可都选择接受。
 
 11. 点击Finish，完成组件安装。
+
+12. 在"Welcome to Android Studio"对话框中打开More Actions下拉列表，然后点击SDK Manager。
+
+13. 在 Android SDK 系统设置中，单击 SDK 工具选项卡，选中"Android SDK Command-Line Tools(latest)"复选框。单击Apply以下载并安装此组件。
+
+14. 安装完成后，请务必重新启动您的计算机。
