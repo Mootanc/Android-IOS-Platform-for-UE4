@@ -66,14 +66,14 @@ __注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上�
 1. 在要用于测试的设备上，打开"设置"并启用开发人员模式，然后启用"USB调试"。
 
 2. 将设备插入电脑，然后允许电脑访问设备的数据。
-
+ 
 3. 允许您的计算机为您的设备安装任何所需的驱动程序。
 
 ### Ⅴ创建虚幻4项目
 在虚幻项目浏览器中，创建一个空白游戏项目，目标平台选择Mobile/Tablet，质量级别选择Scalable 3D or 2D，命名为AndroidQucikStart，完成创建。
 ### Ⅵ设置安卓版虚幻编辑器
 接下来，我们需要确保虚幻编辑器中的项目设置是针对Android APK版本配置的。
-1. 打开Edit里的Project Settings窗口。
+1. 打开Edit->Project Settings窗口。
 
 2. 导航到Platforms->Android，找到APK Packaging，会有一条警告，上面写着"项目未针对Android平台进行配置"。单击"立即配置"按钮以配置项目。
 
@@ -81,7 +81,12 @@ __注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上�
 
 4. 点击Accept SDK License，如您之前已点击过，则无需点击。
 ### Ⅶ为移动预览配置编辑器和 PIE
+您可以设置虚幻编辑器的在编辑器中播放（PIE）模式，以预览游戏在移动渲染器中的外观。
+1. 在工具栏中，选择Settings->Preview Rendering Level->Android ES3.1。
 
+2. 单击工具栏中播放按钮旁边的下拉列表。选择与所选渲染级别对应的Mobile Preview ES3.1模式。
+
+现在，编辑器内游戏的显示效果将与在目标移动设备上的显示效果一致。
 ### Ⅷ在安卓设备上启动项目
 
 ### Ⅸ打包安卓项目
