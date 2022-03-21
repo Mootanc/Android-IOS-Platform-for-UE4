@@ -76,21 +76,21 @@ Unreal Engine版本:     4.27.1
 1. 请确保通过USB数据线将目标iOS设备连接到您的计算机。
 
 2. 打开IOSQuickStart项目。打开Edit->Project Settings窗口。
-
+<br>![image](./Images/IOS/editor1.PNG)
 3. 导航到Platforms->iOS，点击Import Provision，导入预配文件，然后点击Import Certificate，导入证书。
-
+<br>![image](./Images/IOS/editor2.PNG)
 4. 如果已正确设置和导入内容，则应在"状态"中看到"有效"一词。
-
+<br>![image](./Images/IOS/editor3.PNG)
 ### Ⅷ在IOS设备上启动项目
 1. 单击工具栏中启动按钮旁边的下拉列表，选择您的IOS设备。
-
+<br>![image](./Images/IOS/editor4.PNG)
 2. 当您的关卡在设备上启动时，进度将显示在屏幕的右下角。
-
+<br>![image](./Images/IOS/editor5.PNG)
 3. 部署完成后，在IOS设备上找到该应用程序并将其打开。
 
 ### Ⅸ打包IOS项目
 1. 选择File->Package Project->iOS。
-
+<br>![image](./Images/IOS/package1.PNG)
 2. 在目录对话框中，选择要保存的文件的位置。
 
 3. 打包完成后，目标文件夹内将包含一个已准备好部署到 iOS 设备的 IPA。
