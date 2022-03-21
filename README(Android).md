@@ -72,7 +72,14 @@ __注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上�
 ### Ⅴ创建虚幻4项目
 在虚幻项目浏览器中，创建一个空白游戏项目，目标平台选择Mobile/Tablet，质量级别选择Scalable 3D or 2D，命名为AndroidQucikStart，完成创建。
 ### Ⅵ设置安卓版虚幻编辑器
+接下来，我们需要确保虚幻编辑器中的项目设置是针对Android APK版本配置的。
+1. 打开Edit里的Project Settings窗口。
 
+2. 导航到Platforms->Android，找到APK Packaging，会有一条警告，上面写着"项目未针对Android平台进行配置"。单击"立即配置"按钮以配置项目。
+
+3. 在 Android Package Name中填写适当的公司和项目名称。在本例子中使用com.Eulee.AndroidQuickStart.
+
+4. 点击Accept SDK License，如您之前已点击过，则无需点击。
 ### Ⅶ为移动预览配置编辑器和 PIE
 
 ### Ⅷ在安卓设备上启动项目
