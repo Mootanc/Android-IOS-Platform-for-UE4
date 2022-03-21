@@ -1,4 +1,4 @@
-# 虚幻4的Android平台搭建
+# 虚幻4的Android平台搭建<p align="right">[IOS开发](README(IOS).md)</p>
 该项目演示了如何在虚幻4实时开发平台搭建Android开发环境。
 
 ```
@@ -91,4 +91,14 @@ __注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上�
 1. 首先确保需要测试的关卡已打开。
 
 2. 单击工具栏中启动按钮旁边的下拉列表，选择您的Android设备。
+
+3. 当您的关卡在设备上启动时，进度将显示在屏幕的右下角。
+
+4. 部署完成后，项目应开始在 Android 设备上自动运行。如果项目无法自动运行，您可以通过在设备上找到该应用程序并点击以启动它。
 ### Ⅸ打包安卓项目
+要打包独立 APK 以进行分发和测试，请按以下步骤操作：
+1. 选择File->Package Project->Android->Android(Multi：ASTC，PVRTC，DXT，ATC，ETC2，ETC1)。
+
+2. 我们将其保存在AndroidQuickStart/Build中。
+
+3. 打包完成后，目标文件夹内将包含在Android设备上安装应用程序所需的APK和OBB文件。还有一对.bat文件，可用于自动将应用程序安装或卸载到目标设备。
