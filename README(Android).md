@@ -2,7 +2,6 @@
 该项目演示了如何在虚幻4实时开发平台搭建Android开发环境。
 
 ```
-语言:                  C#、C++
 机构:                  优立, https://www.euclideon.com/
 日期:                  2022-03-15
 Android Studio版本:    2021.1.1.22
