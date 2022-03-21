@@ -99,6 +99,6 @@ __注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上�
 要打包独立 APK 以进行分发和测试，请按以下步骤操作：
 1. 选择File->Package Project->Android->Android(Multi：ASTC，PVRTC，DXT，ATC，ETC2，ETC1)。
 
-2. 我们将其保存在AndroidQuickStart/Build中。
+2. 我们将其保存在AndroidQuickStart/Build/Android_ASTC中。
 
 3. 打包完成后，目标文件夹内将包含在Android设备上安装应用程序所需的APK和OBB文件。还有一对.bat文件，可用于自动将应用程序安装或卸载到目标设备。
