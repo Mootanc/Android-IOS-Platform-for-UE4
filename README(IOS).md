@@ -13,26 +13,26 @@ Unreal Engine版本:     4.27.1
 1. 打开[iTunes官网](https://www.apple.com.cn/itunes/)，下拉页面，找到Windows版本，点击即可安装。
 <br>![image](./Images/IOS/setup1.PNG)
 2. 等待下载完成之后，双击iTunes64Setup.exe运行。
-
+<br>![image](./Images/IOS/setup2.PNG)
 3. 点击下一步，跳转到安装界面，保持默认，点击安装。
-
+<br>![image](./Images/IOS/setup3.PNG)
 4. 安装完成后，同意软件许可协议即可正常运行软件。
-
+<br>![image](./Images/IOS/setup4.PNG)
 ### Ⅱ创建虚幻4项目
 在虚幻项目浏览器中，创建一个空白游戏项目，目标平台选择Mobile/Tablet，质量级别选择Scalable 3D or 2D，命名为IOSQucikStart，完成创建。加载项目后，可以将编辑器关闭。
-
+<br>![image](./Images/IOS/project.PNG)
 ### Ⅲ生成签名证书
 要在iOS设备上部署和使用UE4项目，您需要来自Apple的特殊证书。在Windows上为IOS开发生成签名证书是由Apple的开发者网站和虚幻引擎提供的虚幻iOS配置向导（iPhonePackager）应用程序共同完成的。
 1. 打开虚幻引擎4根目录下的Engine\Binaries\DotNET\IOS，运行IPhonePackager.exe。
-
+<br>![image](./Images/IOS/license1.PNG)
 2. 由于在打开iPhonePackager.exe时，预配是特定于项目的，因此它会首先要求您找到项目的文件。找到项目文件后，选择并打开目标项目的.uproject后缀文件。
-
+<br>![image](./Images/IOS/license2.PNG)
 3. 选择New User选项卡，然后单击Create certificate request and a key pair按钮。
 
 4. 单击该按钮时，将打开生成证书请求对话框。在此框中，输入必填信息：您的 Apple ID、电子邮件地址和姓名（或公司名称）。
-
+<br>![image](./Images/IOS/license43.PNG)
 5. 单击Generate a key pair，然后选择保存.key文件的位置。
-
+<br>![image](./Images/IOS/license4.PNG)
 6. 单击Generate Certificate Request，然后选择保存.csr文件的位置。完成后，生成证书请求对话框将关闭，返回到iPhonePackager主窗口。
 
 7. 现在，转到[Apple IOS开发者网站](https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Fregister%2Fagree%2F&rv=1)上的iOS证书页面并登录。__注意：您必须是开发人员计划中注册的开发人员或开发人员计划中的组织团队成员__。
