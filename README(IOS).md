@@ -11,7 +11,7 @@ Unreal Engine版本:     4.27.1
 ## 快速入门指南
 ### Ⅰ安装iTunes
 1. 打开[iTunes官网](https://www.apple.com.cn/itunes/)，下拉页面，找到Windows版本，点击即可安装。
-
+<br>![image](./Images/IOS/setup1.PNG)
 2. 等待下载完成之后，双击iTunes64Setup.exe运行。
 
 3. 点击下一步，跳转到安装界面，保持默认，点击安装。
