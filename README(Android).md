@@ -11,7 +11,7 @@ Unreal Engine版本:     4.27.1
 
 ## 快速入门指南
 ### Ⅰ安装Android Studio
-注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上。
+__注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上。__
 1. 打开[Android Studio官网](https://developer.android.google.cn/studio/)，点击DOWNLOAD ANDROID STUDIO下载。
 
 2. 跳转到下载界面，选择同意条款，并点击下载。
