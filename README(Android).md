@@ -77,7 +77,7 @@ __注意：在安装Android Studio之前必须保证安装了jdk1.8版本以上�
 
 2. 导航到Platforms->Android，找到APK Packaging，会有一条警告，上面写着"项目未针对Android平台进行配置"。单击"立即配置"按钮以配置项目。
 
-3. 在 Android Package Name中填写适当的公司和项目名称。在本例子中使用com.Eulee.AndroidQuickStart.
+3. 在 Android Package Name中填写适当的公司和项目名称，本例子中使用com.Eulee.AndroidQuickStart。在Application Display Name中填写应用程序的名字，本例子暂不命名。
 
 4. 点击Accept SDK License，如您之前已点击过，则无需点击。
 ### Ⅶ为移动预览配置编辑器和 PIE
