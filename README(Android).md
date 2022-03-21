@@ -10,7 +10,7 @@ Unreal Engine版本:     4.27.1
 ```
 
 ## 快速入门指南
-### 安装Android Studio
+### Ⅰ安装Android Studio
 Android Studio安装的前提必须保证安装了jdk1.8版本以上。
 1. 打开[Android Studio官网](https://developer.android.google.cn/studio/)，点击DOWNLOAD ANDROID STUDIO下载。
 
@@ -28,7 +28,7 @@ Android Studio安装的前提必须保证安装了jdk1.8版本以上。
 
 8. 确保选中"Start Android Studio"框，然后单击"Finish"退出安装程序。
 
-### 设置Android Studio 
+### Ⅱ设置Android Studio 
 1. 当"Import Android Studio Settings"对话框出现时，选择"Do not import settings"，然后点击"OK"继续。
 
 2. 若弹出以下界面，点击"Cancel"，跳转到数据共享界面。
@@ -57,14 +57,24 @@ Android Studio安装的前提必须保证安装了jdk1.8版本以上。
 
 14. 安装完成后，请务必重新启动您的计算机。
 
-### 安装安卓NDK
+### Ⅲ安装安卓NDK
 1. 打开虚幻引擎4根目录下的Engine/Extras/Android，运行SetupAndroid.bat。
 
 2. 命令提示符安装成功后按任意键关闭，再重启您的计算机以使更改生效。
 
-### 设置安卓设备
+### Ⅳ设置安卓设备
 1. 在要用于测试的设备上，打开"设置"并启用开发人员模式，然后启用"USB调试"。
 
 2. 将设备插入电脑，然后允许电脑访问设备的数据。
 
 3. 允许您的计算机为您的设备安装任何所需的驱动程序。
+
+### Ⅴ创建虚幻4项目
+
+### Ⅵ设置安卓版虚幻编辑器
+
+### Ⅶ为移动预览配置编辑器和 PIE
+
+### Ⅷ在安卓设备上启动项目
+
+### Ⅸ打包安卓项目
